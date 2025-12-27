@@ -45,12 +45,14 @@
         .content p {
             font-size: 14px;
             color: #cfcfe8;
-            margin-bottom: 20px;
+            margin-bottom: 22px;
         }
 
         .download-btn {
-            display: inline-block;
-            padding: 14px 28px;
+            display: block;
+            width: 100%;
+            padding: 14px 0;
+            margin-bottom: 14px;
             font-size: 16px;
             font-weight: bold;
             color: #ffffff;
@@ -63,9 +65,14 @@
             box-shadow: 0 5px 0 #2f6f32;
         }
 
+        .download-btn.secondary {
+            background: linear-gradient(180deg, #2196f3, #1976d2);
+            box-shadow: 0 5px 0 #145a9e;
+        }
+
         .download-btn:hover {
             transform: translateY(2px);
-            box-shadow: 0 3px 0 #2f6f32;
+            box-shadow: 0 3px 0 rgba(0,0,0,0.5);
         }
 
         .footer {
@@ -79,23 +86,27 @@
 
     <div class="window">
         <div class="title-bar">
-            SecureLocker Installer
+            SecureLocker Downloads
         </div>
 
         <div class="content">
-            <h1>Lockman</h1>
+            <h1>SecureLocker</h1>
             <p>
-                A console-based file encryption app for Windows.<br>
-                Simple. Secure. Offline.
+                GUI-based and consolebased  security tools for Windows.securelocker isgui and lockman is console.<br>
+                Choose the app you want to download.
             </p>
 
-            <!-- DOWNLOAD BUTTON -->
-            <a href="lockman.exe" download class="download-btn">
-                ⬇ Download lockman
+            <!-- DOWNLOAD BUTTONS -->
+            <a href="securelocker.exe" download class="download-btn">
+                ⬇ Download SecureLocker
+            </a>
+
+            <a href="lockman.exe" download class="download-btn secondary">
+                ⬇ Download LockMan
             </a>
 
             <div class="footer">
-                Windows only • © 2025 lockman
+                Windows only • © 2025 SecureLocker
             </div>
         </div>
     </div>
