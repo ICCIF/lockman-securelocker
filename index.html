@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SecureLocker – Download</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+            background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .window {
+            width: 420px;
+            background: #2f2f46;
+            border-radius: 10px;
+            box-shadow: 0 0 25px rgba(0,0,0,0.6);
+            overflow: hidden;
+        }
+
+        .title-bar {
+            background: #1c1c2b;
+            padding: 10px 14px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content h1 {
+            margin-top: 0;
+            font-size: 26px;
+        }
+
+        .content p {
+            font-size: 14px;
+            color: #cfcfe8;
+            margin-bottom: 20px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 14px 28px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            background: linear-gradient(180deg, #4caf50, #3e8e41);
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: transform 0.1s, box-shadow 0.1s;
+            box-shadow: 0 5px 0 #2f6f32;
+        }
+
+        .download-btn:hover {
+            transform: translateY(2px);
+            box-shadow: 0 3px 0 #2f6f32;
+        }
+
+        .footer {
+            margin-top: 18px;
+            font-size: 12px;
+            color: #a0a0c0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="window">
+        <div class="title-bar">
+            SecureLocker Installer
+        </div>
+
+        <div class="content">
+            <h1>SecureLocker</h1>
+            <p>
+                A GUI-based file encryption app for Windows.<br>
+                Simple. Secure. Offline.
+            </p>
+
+            <!-- DOWNLOAD BUTTON -->
+            <a href="securelocker.exe" download class="download-btn">
+                ⬇ Download SecureLocker
+            </a>
+
+            <div class="footer">
+                Windows only • © 2025 SecureLocker
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
